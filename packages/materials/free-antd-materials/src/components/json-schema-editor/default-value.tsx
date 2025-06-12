@@ -44,12 +44,12 @@ export function DefaultValue(props: {
   );
 
   // 使用 useCallback 创建稳定的回调函数
-  const handleJsonChange = useCallback((val: string) => {
-    // 只在值真正改变时才更新状态
-    if (val !== internalJsonValue) {
-      setInternalJsonValue(val);
-    }
-  }, []);
+  // const handleJsonChange = useCallback((val: string) => {
+  //   // 只在值真正改变时才更新状态
+  //   if (val !== internalJsonValue) {
+  //     setInternalJsonValue(val);
+  //   }
+  // }, []);
 
   // 处理编辑完成事件
   const handleEditComplete = useCallback(() => {
@@ -60,10 +60,10 @@ export function DefaultValue(props: {
       // JsonViewerRef.current?.format();
       wrapperRef.current?.blur();
     });
-    setJsonReadOnly(true);
+    // setJsonReadOnly(true);
   }, [internalJsonValue, onChange]);
 
-  const [jsonReadOnly, setJsonReadOnly] = useState<boolean>(true);
+  // const [jsonReadOnly, setJsonReadOnly] = useState<boolean>(true);
 
   const handleFormatJson = useCallback(() => {
     try {
@@ -100,7 +100,7 @@ export function DefaultValue(props: {
           }
         }}
         onClick={(e: React.MouseEvent) => {
-          setJsonReadOnly(false);
+          // setJsonReadOnly(false);
         }}
       >
         {/* <JsonViewer

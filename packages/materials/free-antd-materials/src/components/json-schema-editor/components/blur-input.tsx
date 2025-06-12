@@ -14,9 +14,8 @@ export function BlurInput(props: InputProps) {
       {...props}
       value={value}
       onChange={(value) => {
-        setValue(value);
+        setValue((value as any).target?.value || '');
       }}
-      onBlur={(e) => props.onChange?.(value, e)}
     />
   );
 }

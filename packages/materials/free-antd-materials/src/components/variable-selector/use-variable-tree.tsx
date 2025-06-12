@@ -1,6 +1,5 @@
 import React, { useCallback } from 'react';
 
-import type { StaticImageData } from 'next/image';
 import { ASTMatch, BaseVariableField, useScopeAvailable } from '@flowgram.ai/editor';
 
 import { ArrayIcons, VariableTypeIcons } from '../type-selector/constants';
@@ -11,7 +10,7 @@ import { TreeNodeData } from './types';
 import { ImgIconWrapper } from './styles';
 
 type VariableField = BaseVariableField<{
-  icon?: string | StaticImageData;
+  icon?: string;
   title?: string;
 }>;
 
@@ -27,14 +26,7 @@ export function useVariableTree(params: {
     if (variable.meta?.icon) {
       return (
         <ImgIconWrapper>
-          <img
-            style={{ marginRight: 8 }}
-            width={12}
-            height={12}
-            src={
-              typeof variable.meta.icon === 'string' ? variable.meta.icon : variable.meta.icon.src
-            }
-          />
+          <img style={{ marginRight: 8 }} width={12} height={12} src={variable.meta.icon} />
         </ImgIconWrapper>
       );
     }
