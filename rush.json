@@ -852,6 +852,15 @@
             ]
         },
         {
+            "packageName": "@flowgram.ai/free-antd-materials",
+            "projectFolder": "packages/materials/free-antd-materials",
+            "versionPolicyName": "publishPolicy",
+            "tags": [
+                "level-1",
+                "team-flow"
+            ]
+        },
+        {
             "packageName": "@flowgram.ai/free-auto-layout-plugin",
             "projectFolder": "packages/plugins/free-auto-layout-plugin",
             "versionPolicyName": "publishPolicy",
