@@ -937,6 +937,16 @@
             ]
         },
         {
+            "packageName": "@flowgram.ai/demo-nextjs-antd",
+            "projectFolder": "apps/demo-nextjs-antd",
+            "versionPolicyName": "appPolicy",
+            "tags": [
+                "level-1",
+                "team-flow",
+                "demo"
+            ]
+        },
+        {
             "packageName": "@flowgram.ai/demo-react-16",
             "projectFolder": "apps/demo-react-16",
             "versionPolicyName": "appPolicy",
