@@ -13,6 +13,11 @@ const defaultStrategies: Strategy[] = [
         size="small"
         disabled={props.readonly}
         {...props}
+        onChange={(e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
+          if (props.onChange) {
+            props.onChange(e.target.value);
+          }
+        }}
       />
     ),
   },
