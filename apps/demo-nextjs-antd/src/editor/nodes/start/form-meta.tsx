@@ -7,7 +7,7 @@ import {
   FormRenderProps,
   ValidateTrigger,
 } from '@flowgram.ai/free-layout-editor';
-import { JsonSchemaEditor } from '@flowgram.ai/free-antd-materials';
+import { JsonSchemaEditor } from '@flowgram.ai/form-antd-materials';
 
 import { FlowNodeJSON, JsonSchema } from '@editor/typings';
 import { useIsSidebar } from '@editor/hooks';

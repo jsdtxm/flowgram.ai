@@ -4,7 +4,7 @@ import {
   PositionSchema,
   WorkflowNodeEntity,
 } from '@flowgram.ai/free-layout-editor';
-import { provideBatchInputEffect } from '@flowgram.ai/free-antd-materials';
+import { provideBatchInputEffect } from '@flowgram.ai/form-antd-materials';
 
 import { FlowNodeRegistry } from '@editor/typings';
 import { defaultFormMeta } from '../default-form-meta';

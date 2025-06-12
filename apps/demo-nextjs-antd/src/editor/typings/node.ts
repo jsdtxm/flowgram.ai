@@ -7,7 +7,7 @@ import {
   type WorkflowEdgeJSON,
   WorkflowNodeMeta,
 } from '@flowgram.ai/free-layout-editor';
-import { IFlowValue } from '@flowgram.ai/free-antd-materials';
+import { IFlowValue } from '@flowgram.ai/form-antd-materials';
 
 import { type JsonSchema } from './json-schema';
 

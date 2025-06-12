@@ -852,8 +852,8 @@
             ]
         },
         {
-            "packageName": "@flowgram.ai/free-antd-materials",
-            "projectFolder": "packages/materials/free-antd-materials",
+            "packageName": "@flowgram.ai/form-antd-materials",
+            "projectFolder": "packages/materials/form-antd-materials",
             "versionPolicyName": "publishPolicy",
             "tags": [
                 "level-1",

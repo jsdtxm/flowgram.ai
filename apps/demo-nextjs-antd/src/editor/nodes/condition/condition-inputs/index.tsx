@@ -1,7 +1,7 @@
 import { nanoid } from 'nanoid';
 import { Button } from 'antd';
 import { Field, FieldArray } from '@flowgram.ai/free-layout-editor';
-import { ConditionRow, ConditionRowValueType } from '@flowgram.ai/free-antd-materials';
+import { ConditionRow, ConditionRowValueType } from '@flowgram.ai/form-antd-materials';
 import { CloseCircleOutlined, PlusOutlined } from '@ant-design/icons';
 
 import { useNodeRenderContext } from '@editor/hooks';

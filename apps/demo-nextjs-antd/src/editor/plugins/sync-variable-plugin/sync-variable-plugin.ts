@@ -8,7 +8,7 @@ import {
   definePluginCreator,
   getNodeForm,
 } from '@flowgram.ai/free-layout-editor';
-import { JsonSchemaUtils } from '@flowgram.ai/free-antd-materials';
+import { JsonSchemaUtils } from '@flowgram.ai/form-antd-materials';
 
 export interface SyncVariablePluginOptions {}
 

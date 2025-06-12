@@ -1,6 +1,6 @@
 import { Field, FlowNodeJSON, FormRenderProps } from '@flowgram.ai/free-layout-editor';
 import { SubCanvasRender } from '@flowgram.ai/free-container-plugin';
-import { BatchVariableSelector, IFlowRefValue } from '@flowgram.ai/free-antd-materials';
+import { BatchVariableSelector, IFlowRefValue } from '@flowgram.ai/form-antd-materials';
 
 import { useIsSidebar, useNodeRenderContext } from '@editor/hooks';
 import { Feedback, FormContent, FormHeader, FormItem, FormOutputs } from '@editor/form-components';

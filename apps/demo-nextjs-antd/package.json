@@ -41,7 +41,7 @@
     "@flowgram.ai/minimap-plugin": "workspace:*",
     "@flowgram.ai/free-container-plugin": "workspace:*",
     "@flowgram.ai/free-group-plugin": "workspace:*",
-    "@flowgram.ai/free-antd-materials": "workspace:*"
+    "@flowgram.ai/form-antd-materials": "workspace:*"
   },
   "devDependencies": {
     "@flowgram.ai/ts-config": "workspace:*",

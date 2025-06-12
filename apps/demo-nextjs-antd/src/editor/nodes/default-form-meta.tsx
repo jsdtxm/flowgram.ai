@@ -1,5 +1,5 @@
 import { FormMeta, FormRenderProps, ValidateTrigger } from '@flowgram.ai/free-layout-editor';
-import { autoRenameRefEffect } from '@flowgram.ai/free-antd-materials';
+import { autoRenameRefEffect } from '@flowgram.ai/form-antd-materials';
 
 import { FormContent, FormHeader, FormInputs, FormOutputs } from '@editor/form-components';
 import { FlowNodeJSON } from '../typings';
